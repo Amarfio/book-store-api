@@ -13,3 +13,6 @@ To perform various functionalisties kinldy follow through accordingly:
 
 ## CODE IN ACTION ENGLISH
 ![SIGNUP endpoint] (http://localhost:8080/bookstore-api/user/add-new)
+sample request body: 
+
+![LOGIN endpoint] (http://localhost:8080/bookstore-api/user/auth/login)
