@@ -38,14 +38,8 @@ public class BookService {
                 newBook = book;
                 newBook.setPostedDate(LocalDateTime.now());
                 newBook.setIsActive(false);
-//                newBook.setApproved(false);
-//                newBlog.setFilePath(filePath);
-
-
-                //save a copy of the file that was uploaded
-//                file.transferTo(new File(filePath));
                 bookRepository.save(newBook);
-                apiResponse = new ApiResponse("200", "blog created and pending approval", newBook);
+                apiResponse = new ApiResponse("200", "book created successfully", newBook);
 
 
 
